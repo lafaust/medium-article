@@ -1,0 +1,96 @@
+/*import de Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,700,700i|Questrial|Work+Sans:400,600,700&display=swap');
+
+/*règles responsive Media Queries*/
+@media (max-width: 1500px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 50px auto;
+    /* margin: 0 500px;*/
+  }
+}
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 50px auto;
+    /* margin: 0 500px;*/
+  }
+}
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 50px auto;
+    /* margin: 0 500px;*/
+  }
+}
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 50px auto;
+    /* margin: 0 500px;*/
+  }
+}
+/*fin Media Queries*/
+
+.banner{
+  background-image: linear-gradient(rgba(20, 20, 20, .5),rgba(20, 20, 20, .5)), url(https://source.unsplash.com/random);
+  color: white;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+}
+
+.title {
+  padding-top: 15%;
+  vertical-align: middle;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  text-align: left;
+  margin: 50px auto;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-family: 'Questrial', sans-serif;
+  font-size: 27px;
+  margin: 28px 0;
+}
+
+.banner p {
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+p {
+  color: #494949;
+  font-family:'Merriweather', serif;
+  font-weight: lighter;
+  font-size: 18px;
+  margin: 18px 0;
+}
+
+a {
+  color: #636363;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 25px;
+  background-color: rgba(233, 253, 240, 1);
+}
+
+a:hover {
+   background-color: #9cf196;
+}
